@@ -1,9 +1,57 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP NRF8001
-D BLE chip from Nordic Semiconductor
-K BLE, bluetooth
-F STM32F446ZCT6
+$CMP nRF24LE1-F16Q24
+D Ultra-low Power Wireless SoC, 8051-compatible microcontroller, 16 kB Flash program memory, 1.9-3.6 V, QFN-24
+K Sub-1GHz RF Shockburst Transceiver SoC
+F https://www.nordicsemi.com/eng/content/download/2443/29442/file/nRF24LE1_Product_Specification_rev1_6.pdf
+$ENDCMP
+#
+$CMP nRF24LE1-F16Q32
+D Ultra-low Power Wireless SoC, 8051-compatible microcontroller, 16 kB Flash program memory, 1.9-3.6 V, QFN-32
+K Sub-1GHz RF Shockburst Transceiver SoC
+F https://www.nordicsemi.com/eng/content/download/2443/29442/file/nRF24LE1_Product_Specification_rev1_6.pdf
+$ENDCMP
+#
+$CMP nRF24LE1-F16Q48
+D Ultra-low Power Wireless SoC, 8051-compatible microcontroller, 16 kB Flash program memory, 1.9-3.6 V, QFN-48
+K Sub-1GHz RF Shockburst Transceiver SoC
+F https://www.nordicsemi.com/eng/content/download/2443/29442/file/nRF24LE1_Product_Specification_rev1_6.pdf
+$ENDCMP
+#
+$CMP nRF24LE1-O17Q24
+D Ultra-low Power Wireless SoC, 8051-compatible microcontroller, 16+1 kB OTP program memory, 1.9-3.6 V, QFN-24
+K Sub-1GHz RF Shockburst Transceiver SoC OTP
+F https://www.nordicsemi.com/eng/content/download/1866/21390/file/nRF24LE1_OTP_Product_Specification_rev1_2.pdf
+$ENDCMP
+#
+$CMP nRF24LE1-O17Q32
+D Ultra-low Power Wireless SoC, 8051-compatible microcontroller, 16+1 kB OTP program memory, 1.9-3.6 V, QFN-32
+K Sub-1GHz RF Shockburst Transceiver SoC OTP
+F https://www.nordicsemi.com/eng/content/download/1866/21390/file/nRF24LE1_OTP_Product_Specification_rev1_2.pdf
+$ENDCMP
+#
+$CMP nRF24LE1-O17Q48
+D Ultra-low Power Wireless SoC, 8051-compatible microcontroller, 16+1 kB OTP program memory, 1.9-3.6 V, QFN-48
+K Sub-1GHz RF Shockburst Transceiver SoC OTP
+F https://www.nordicsemi.com/eng/content/download/1866/21390/file/nRF24LE1_OTP_Product_Specification_rev1_2.pdf
+$ENDCMP
+#
+$CMP nRF24LU1P-F16Q32
+D Ultra-low Power Wireless SoC, 8051-compatible microcontroller, 16 kB Flash program memory, USB, 3.05-5.25 V, QFN-32
+K Sub-1GHz RF Shockburst Transceiver SoC USB
+F https://www.nordicsemi.com/eng/content/download/2724/34051/file/nRF24LU1P_Product_Spec_v1_1.pdf
+$ENDCMP
+#
+$CMP nRF24LU1P-F32Q32
+D Ultra-low Power Wireless SoC, 8051-compatible microcontroller, 32 kB Flash program memory, USB, 3.05-5.25 V, QFN-32
+K Sub-1GHz RF Shockburst Transceiver SoC USB
+F https://www.nordicsemi.com/eng/content/download/2724/34051/file/nRF24LU1P_Product_Spec_v1_1.pdf
+$ENDCMP
+#
+$CMP nRF24LU1P-O17Q32
+D Ultra-low Power Wireless SoC, 8051-compatible microcontroller, 16+1 kB OTP program memory, USB, 3.05-5.25 V, QFN-32
+K Sub-1GHz RF Shockburst Transceiver SoC USB OTP
+F https://www.nordicsemi.com/eng/content/download/2723/34042/file/nRF24LU1P_O_Product_Spec_v1.0.pdf
 $ENDCMP
 #
 $CMP nRF51x22-QFxx
@@ -12,10 +60,58 @@ K MCU, ARM, BLE, 2.4GHz
 F http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.3.pdf
 $ENDCMP
 #
+$CMP nRF51824-QF
+D 16-MHz, Cortex-M0, BLE/2.4GHz multi-protocol SoC, AEC-Q100 Grade 2, 1.9-3.6 V, QFN-48
+K nRF51 ARM Cortex M0 Bluetooth BLE
+F http://infocenter.nordicsemi.com/pdf/nRF51824_PS_v1.0.pdf
+$ENDCMP
+#
+$CMP nRF52810-QC
+D 64-MHz, Cortex-M4F, Bluetooth 5/BLE/ANT/2.4GHz multi-protocol SoC, 1.7-3.6 V, QFN-32
+K nRF52 ARM Cortex M4 Bluetooth BLE
+F http://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.3.pdf
+$ENDCMP
+#
+$CMP nRF52810-QF
+D 64-MHz, Cortex-M4F, Bluetooth 5/BLE/ANT/2.4GHz multi-protocol SoC, 1.7-3.6 V, QFN-48
+K nRF52 ARM Cortex M4 Bluetooth BLE
+F http://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.3.pdf
+$ENDCMP
+#
+$CMP nRF52832-CI
+D 64-MHz, Cortex-M4F, Bluetooth 5/BLE/ANT/2.4GHz multi-protocol SoC, 1.7-3.6 V, WLCSP-50
+K nRF52 ARM Cortex M4 Bluetooth BLE
+F http://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.3.pdf
+$ENDCMP
+#
 $CMP nRF52832-QFxx
 D Multiprotocol BLE/2.4GHz Cortex-M4 SoC
 K MCU, ARM, BLE, 2.4GHz
 F http://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.4.pdf
+$ENDCMP
+#
+$CMP nRF52840-QI
+D 64-MHz, Cortex-M4F, Bluetooth 5/BLE/ANT/802.15.4/2.4GHz multi-protocol SoC, 1.7-5.5 V, AQFN-73
+K nRF52 ARM Cortex M4 Bluetooth BLE ANT 802.15.4
+F http://infocenter.nordicsemi.com/pdf/nRF52840_OPS_v0.5.1.pdf
+$ENDCMP
+#
+$CMP nRF8001
+D Single-chip Bluetooth® low energy solution, 1.9-3.6 V, QFN-32
+K BLE bluetooth
+F https://www.nordicsemi.com/eng/content/download/2981/38488/file/nRF8001_PS_v1.3.pdf
+$ENDCMP
+#
+$CMP nRF905
+D Single chip 433/868/915MHz Transceiver, 1.9-3.6 V, QFN-32
+K Sub-1GHz RF Shockburst Transceiver
+F https://www.nordicsemi.com/eng/content/download/2452/29528/file/Product_Specification_nRF905_v1.5.pdf
+$ENDCMP
+#
+$CMP nRF9E5
+D 433/868/915MHz RF Transceiver with Embedded 8051 Compatible Microcontroller and 4 Input, 10 Bit ADC, 1.9-3.6 V, QFN-32
+K RF Sub-1GHz Shockburst Transceiver
+F https://www.nordicsemi.com/eng/content/download/2441/29424/file/Product_Specification_nRF9E5_v1.6.pdf
 $ENDCMP
 #
 #End Doc Library
