@@ -294,6 +294,12 @@ K power switch FET driver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2587-87r.pdf
 $ENDCMP
 #
+$CMP MWPR1516CFM
+D Wireless Power Receiver Controller, 24-MHz/32-bit ARM Cortex-M0+, 16 kB flash, 4 kB SRAM, 3.5 ... 20 V, QFN-32
+K Wireless Power ARM Cortex M0+
+F https://www.nxp.com/docs/en/data-sheet/WPR1516.pdf
+$ENDCMP
+#
 $CMP PM8834
 D 4 A dual low-side MOSFET driver (SO8 package)
 K mosfet driver
